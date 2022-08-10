@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 
 import com.cg.jpacrud.entity.Student;
 
-public class StudentDaoImpl implements StudentDao {
+public class StudentDaoImpl implements Studentdao {
 	
 	private EntityManager entityManager;
 

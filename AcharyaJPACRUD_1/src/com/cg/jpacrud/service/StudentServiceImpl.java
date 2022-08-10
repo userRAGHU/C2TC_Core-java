@@ -1,12 +1,12 @@
 package com.cg.jpacrud.service;
 
-import com.cg.jpacrud.dao.StudentDao;
 import com.cg.jpacrud.dao.StudentDaoImpl;
+import com.cg.jpacrud.dao.Studentdao;
 import com.cg.jpacrud.entity.Student;
 
 public class StudentServiceImpl implements StudentService {
 	
-    private StudentDao dao;
+    private Studentdao dao;
 	
 	public StudentServiceImpl()
 	{
@@ -41,5 +41,6 @@ public class StudentServiceImpl implements StudentService {
 	public Student findStudentById(int id) {
 		Student student = dao.getStudentById(id);
 		return student;
+	}
 
 }
