@@ -1,16 +1,14 @@
 package com.cg.jpacrud.dao;
 
 import javax.persistence.EntityManager;
-
 import com.cg.jpacrud.entity.Student;
 
 public class StudentDaoImpl implements Studentdao {
 	
 	private EntityManager entityManager;
-
+			
 	public StudentDaoImpl() {
 		entityManager = JPAUtil.getEntityManager();
-				
 	}
 
 	@Override

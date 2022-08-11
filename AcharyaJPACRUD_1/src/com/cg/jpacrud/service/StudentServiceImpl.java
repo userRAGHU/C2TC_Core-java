@@ -8,8 +8,7 @@ public class StudentServiceImpl implements StudentService {
 	
     private Studentdao dao;
 	
-	public StudentServiceImpl()
-	{
+	public StudentServiceImpl() {
 		dao = new StudentDaoImpl();
 	}
 
